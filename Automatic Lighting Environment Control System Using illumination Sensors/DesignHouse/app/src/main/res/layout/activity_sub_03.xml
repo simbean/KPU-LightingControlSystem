@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SubActivity_03">
+
+
+    <LinearLayout
+        android:layout_width="418dp"
+        android:layout_height="731dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="421dp"
+            android:layout_height="wrap_content"
+            android:background="#7B68EE"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="시간 예약 기능" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/jalnan" />
+
+        <LinearLayout
+            android:layout_width="408dp"
+            android:layout_height="192dp"
+            android:orientation="horizontal">
+
+            <TimePicker
+                android:id="@+id/tp_timepicker"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:timePickerMode="spinner" />
+
+            <LinearLayout
+                android:layout_width="130dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="123dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="regist"
+                    android:text="기상시간 설정" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="unregist"
+                    android:text="기상시간 삭제" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="117dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="regist2"
+                    android:text="취침시간 설정" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="unregist2"
+                    android:text="취침시간 삭제" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="81dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="요일 선택" />
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="71dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_mon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="월요일" />
+
+            <CheckBox
+                android:id="@+id/cb_tue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="화요일" />
+
+            <CheckBox
+                android:id="@+id/cb_wed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="수요일" />
+
+            <CheckBox
+                android:id="@+id/cb_thu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="목요일" />
+
+            <CheckBox
+                android:id="@+id/cb_fri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="금요일" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_sat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="토요일" />
+
+            <CheckBox
+                android:id="@+id/cb_sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="일요일" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
