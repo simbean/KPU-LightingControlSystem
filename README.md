@@ -34,7 +34,8 @@
 ***
 
 - Android 화면 구성
-<br>
+
+
 ![image](https://user-images.githubusercontent.com/71861842/147445634-052f4124-730b-4a40-9602-199e2887350d.png)
 
 ## 주요 기능
