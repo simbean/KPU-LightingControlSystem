@@ -5,7 +5,7 @@
 ***
 
 ### Overview
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1463df70-c4eb-49c8-8d97-89c727a6124a/Untitled.png)
+![image](https://user-images.githubusercontent.com/71861842/147445650-4e166763-1dd7-485a-b27a-cb2b411f0664.png)
 
 한국산업기술대학교 졸업 작품
 
@@ -15,11 +15,11 @@
 
 - 전체 구상도
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e859d543-92c4-49e4-b97c-5f9874d048db/Untitled.png)
+![image](https://user-images.githubusercontent.com/71861842/147445560-ea64f3d1-6dc0-4c96-961e-7218d2cdddf9.png)
 
 - hardware 부품 구상도
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/25de1e98-1de8-4215-a3e1-37487d26f8c0/Untitled.png)
+![image](https://user-images.githubusercontent.com/71861842/147445573-35c53f99-94bf-4356-988c-ab6cf057f827.png)
 
 ## SKILLS
 
@@ -34,8 +34,7 @@
 ***
 
 - Android 화면 구성
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a0bd24e8-a1a9-407c-90cc-9499dc58696e/Untitled.png)
+![image](https://user-images.githubusercontent.com/71861842/147445634-052f4124-730b-4a40-9602-199e2887350d.png)
 
 ## 주요 기능
 
@@ -54,3 +53,5 @@
     퇴근시간 오후 6시 cooling mode -> sleep mode
 1. 수동조작모드
 - 기본 커튼의 기능을 이용하고 싶을 때 (원할 때 자유롭게 올리고 내리는 것) 사용하는 것으로 자동모드보다 우선적인 기능을 가지고 있어 수동모드가 동작될 때는 자동모드가 해제 된다
+
+
